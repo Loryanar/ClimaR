@@ -5,25 +5,26 @@ body{
   text-align: center;
 
 }
+
 .containerF{
-  position: relative;
- top: 20%;
- justify-content: center;
- width: 100%;
+  display: block;
+  float:none;
+  margin: 20px auto;
+  justify-content: center;
+  width: 100%;
 }
+
 .inputF{
   position: absolute;
-   top: 50%;
-  left: 1%;
+  left: 10%;
   right: 20%;
-  margin: 50px 0 0 50px; 
+ 
 
  
 }
 input{
-  background:#725d9e;
-  opacity: 0.8;
-  width: 60%;
+  background:#725d9ea8;
+  width: 40%;
   height: 50px;
   border: none;
   outline: none;
@@ -45,4 +46,61 @@ input{
     background-color: #544678;
     overflow: hidden;
     color: antiquewhite;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.card{
+  display: block;
+  float:none;
+  margin: 100px auto;
+  background-color: rgba(46, 40, 63, 0.6)  ;
+  border-radius: 15px ;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  max-width: 950px;
+  min-width: 100px;
+  height: 100%;
+  max-height: 580px;
+ 
+}
+.Xdatos{
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+  left: 18%;
+  right: 20%;
+}
+
+.img{
+  float: left;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  margin: 20px 10px 15px 10px;
+ 
+}
+.col{
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+  align-content: start;
+}
+.h3,.p,.h1{
+  display: block;
+  float:none;
+  color: antiquewhite;
+}
+.h3{
+
+  font-size: 32px;
+}
+.p{
+  
+}
+.h1{
+  
 }
